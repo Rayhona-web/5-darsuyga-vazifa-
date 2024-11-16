@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: url(img/Снимок\ экрана\ 2024-11-14\ 170151.png)no-repeat center/cover;
+    height: 100vh;
+    backdrop-filter: blur(40px);
+  
+
+}
+.container{
+    width: 1080px;
+    height: 393px;
+    box-shadow: 2px 2px 3px 2px #A1A1A1;
+    margin-top: 100px;
+    margin-left: 200px;
+    border-radius: 20px;
+    background-color: white;
+}
+h2{
+    font-size: 24px;
+    padding-left: 400px;
+    padding-top: 30px;
+}
+.btn_pcholder{
+    width: 362.49px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.bt_pcholder{
+    width: 362.49px;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.btn_pcholde{
+    width: 749.73px;
+    height: 82px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 200px;
+    
+    padding-left: 30px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 50px;
+}
+button{
+    width: 179px;
+    height: 53px;
+    background: linear-gradient(  #B90160 ,  #2E3192);
+    border: none;
+    border-radius: 10px;
+    margin-left: 60px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+.contrainer{
+    max-width: 1200px;
+}
+@media(max-width:1200px){
+    .container{
+
+        max-width: 1200px;
+       
+        
+    }
+    
+    }
+    @media (max-width:1200px){
+        .container{
+            max-width: 768px;
+           
+        }
+    }
+    
+    @media (max-width:768px){
+        .container{
+            max-width: 576px;
+            
+        }
+    }
+    @media (max-width:576px){
+        .container, .box{
+            max-width: 320px;
+            
+        }
+    }
